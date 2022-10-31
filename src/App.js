@@ -6,7 +6,7 @@ function App() {
     <>
       <CustomTheme>
         <Navigation />
-        {/* <Main /> */}
+        <Main />
         <Footer />
       </CustomTheme>
     </>

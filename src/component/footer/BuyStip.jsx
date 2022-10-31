@@ -1,3 +1,11 @@
 export const BuyStip = () => {
-  return <div>BuyStip</div>;
+  return (
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100vh",
+      }}
+    ></div>
+  );
 };

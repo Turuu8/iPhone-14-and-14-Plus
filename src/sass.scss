@@ -40,6 +40,8 @@
     height: 51px;
     display: flex;
     justify-content: center;
+    z-index: 2;
+    background-color: rgba(255,255,255,0.72);
     backdrop-filter: saturate(180%) blur(20px);
     .list{
         @include max-width980px;
@@ -65,6 +67,145 @@
                 border-radius: 980px;
                 line-height: 1.33337;
             }
+        }
+    }
+}
+.main{
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        .hero-section-iPhone-left-hand-maskImage{
+            z-index: 1;
+            mask-image: url('/Users/turuuu/Downloads/hero_iphone_14_mask__5z4yqeh79qay_medium_2x.svg');
+            mask-size: 590px 998px;
+            mask-repeat: no-repeat;
+            mask-position: center;
+        
+            -webkit-mask-image: url('/Users/turuuu/Downloads/hero_iphone_14_mask__5z4yqeh79qay_medium_2x.svg');
+            -webkit-mask-size:  590px 998px;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-position: center;
+        }
+        .hero-section-iPhone-right-hand-maskImage{
+            z-index: 1;
+            mask-image: url('file:///Users/turuuu/Downloads/hero_iphone_14_plus_mask__gmfrhdlwc5aq_medium_2x.svg');
+            mask-size: 622px 998px;
+            mask-repeat: no-repeat;
+            mask-position: center;
+        
+            -webkit-mask-image: url('file:///Users/turuuu/Downloads/hero_iphone_14_plus_mask__gmfrhdlwc5aq_medium_2x.svg');
+            -webkit-mask-size:  622px 998px;
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-position: center;
+        }
+        .hero-section-battery-container{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            position:relative;
+            top:30%;
+            width:500px;
+            .battery-fill{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 172px;
+                height: 86px;
+                background-color: white;
+                border-radius: 10px;
+            }
+        }
+        .hero-section-safety-container{
+            box-sizing: border-box;
+            position: relative;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .safety-circle{
+                border-radius: 50%;
+                border: 2px solid #ff3b30;
+                position: absolute;
+            }
+        }
+        .hero-section-manifesto-camera{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 110vh;
+            overflow: hidden;
+            h1{
+                text-align: center;
+                max-width: 720px;
+            }
+            img{
+                width: 80%;
+                margin-top: 5%;
+                margin-left: 20%;
+            }
+        }
+        .hero-section-bottom-wonderfull{
+            transform-style: preserve-3d;
+            perspective-origin: 50% 384.5px;
+            text-align: center;
+            .iPhone14andiPhone14PlusText{
+                position: absolute;
+                right: -10%;
+                left: -10%;
+                margin: auto;
+                top: -27vh;
+                color: transparent;
+                background-clip: text;
+                background-image:
+              linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+            }
+        }
+        .hero-section-bottom-wonderfullImages{
+            height: 522px;
+            width: 100%;
+            display: flex;
+            position: relative;
+            img{
+                position: absolute;
+            }
+            .image1{
+                left: 0;
+                right: 25%;
+                margin: auto;
+            }
+            .image2{
+                left: 0;
+                right: 10%;
+                margin: auto;
+            }
+            .image3{
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+            .image4{
+                right: 0;
+                left: 15%;
+                margin: auto;
+            }
+            .image5{
+                right: 0;
+                left: 20%;
+                margin: auto;
+            }
+        }
+        .hero-section-last-price-link{
+            
         }
     }
 }
