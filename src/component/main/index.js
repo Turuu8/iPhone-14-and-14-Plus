@@ -1,9 +1,9 @@
-import { Hero } from "./section-hero/Hero";
+import { HeroAnimation } from "./section-hero/HeroAnimation";
 
 export const Main = () => {
   return (
-    <>
-      <Hero />
-    </>
+    <div className="main">
+      <HeroAnimation />
+    </div>
   );
 };
