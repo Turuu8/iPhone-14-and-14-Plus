@@ -6,7 +6,12 @@ import { Typography } from "@mui/material";
 export const HeroAnimation = () => {
   return (
     <Controller>
-      <Scene duration={6000} pin={true} indicators={true} triggerHook={0.062}>
+      <Scene
+        duration={6000}
+        pin={true}
+        //  indicators={true}
+        triggerHook={0.062}
+      >
         {(progrss) => (
           <div className="hero-section">
             <Timeline totalProgress={progrss} paused target={<Hero />}>
@@ -197,8 +202,7 @@ export const HeroAnimation = () => {
                 from={{
                   opacity: "0",
                   scale: "0",
-                  transform:
-                    "matrix3d(0.125, 0, 0, 0, 0, 0.125, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
+                  transform: "matrix3d(0.125, 0, 0, 0, 0, 0.125, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
                 }}
                 to={{
                   opacity: "1",
@@ -254,8 +258,7 @@ export const HeroAnimation = () => {
               />
               <Tween
                 to={{
-                  transform:
-                    "matrix3d(1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
+                  transform: "matrix3d(1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
                 }}
                 target="sos"
                 position="0.42"
@@ -279,8 +282,7 @@ export const HeroAnimation = () => {
               />
               <Tween
                 to={{
-                  transform:
-                    "matrix3d(1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
+                  transform: "matrix3d(1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
                 }}
                 target="sosText"
                 position="0.42"
@@ -345,8 +347,7 @@ export const HeroAnimation = () => {
                 from={{ y: "-10vh" }}
                 to={{
                   y: "-20vh",
-                  transform:
-                    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
+                  transform: "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)",
                 }}
                 target="wonderfull"
                 position="0.8"
@@ -445,9 +446,7 @@ export const HeroAnimation = () => {
         )}
       </Scene>
       <div className="hero-section-last-price-link">
-        <Typography>
-          From $33.29/mo. for 24 mo. or $799 before trade‑in*
-        </Typography>
+        <Typography>From $33.29/mo. for 24 mo. or $799 before trade‑in*</Typography>
         <div>
           <Typography>Watch the film</Typography>
           <Typography>Watch the event</Typography>
