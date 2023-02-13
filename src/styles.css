@@ -81,22 +81,22 @@
 }
 .main .hero-section .hero-section-iPhone-left-hand-maskImage {
   z-index: 1;
-  mask-image: url("/Users/turuuu/Downloads/hero_iphone_14_mask__5z4yqeh79qay_medium_2x.svg");
+  mask-image: url("../src/images/hero_iphone_14_mask__5z4yqeh79qay_medium_2x.svg");
   mask-size: 590px 998px;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url("/Users/turuuu/Downloads/hero_iphone_14_mask__5z4yqeh79qay_medium_2x.svg");
+  -webkit-mask-image: url("../src/images/hero_iphone_14_mask__5z4yqeh79qay_medium_2x.svg");
   -webkit-mask-size: 590px 998px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
 }
 .main .hero-section .hero-section-iPhone-right-hand-maskImage {
   z-index: 1;
-  mask-image: url("file:///Users/turuuu/Downloads/hero_iphone_14_plus_mask__gmfrhdlwc5aq_medium_2x.svg");
+  mask-image: url("../src/images/hero_iphone_14_plus_mask__gmfrhdlwc5aq_medium_2x.svg");
   mask-size: 622px 998px;
   mask-repeat: no-repeat;
   mask-position: center;
-  -webkit-mask-image: url("file:///Users/turuuu/Downloads/hero_iphone_14_plus_mask__gmfrhdlwc5aq_medium_2x.svg");
+  -webkit-mask-image: url("../src/images/hero_iphone_14_plus_mask__gmfrhdlwc5aq_medium_2x.svg");
   -webkit-mask-size: 622px 998px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
